@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com Select</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="../Calculadora/">Calculadora Normal</a>
+        <a href="../CalcComSelect/">Calculadora com Select</a>
+        <a href="../Aulas/">Exercicio Inicial</a>
+    </nav>
+    <h1 class="titulo">Calculadora</h1>
+    <div>
+        <input type="text" placeholder="Insira o primeiro número" id="n1">
+        <input type="text" placeholder="Insira o segundo número" id="n2">
+        <select id="operador">
+            <option value="+">Adição (+)</option>
+            <option value="-">Subtração (-)</option>
+            <option value="*">Multiplicação (*)</option>
+            <option value="/">Divisão (/)</option>
+        </select>
+        <button onclick = "calcular()">CALCULAR</button>
+        <p id="respCalculo"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
