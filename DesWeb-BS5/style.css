@@ -1,0 +1,89 @@
+body {
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.674) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.s1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.carousel {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.d-block {
+    border-radius: 10px;
+}
+
+.s2,
+.s3 {
+    padding-top: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    width: 800px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.row {
+    padding: 50px;
+}
+
+.card {
+    border: 2.5px solid black;
+    border-radius: 7px;
+    gap: auto;
+    padding: auto;
+}
+
+footer {
+    background-color: white;
+    height: 50px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.625);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    border-radius: 999px;
+    transition: all 300ms ease-in-out;
+}
+
+footer img:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.514);
+}
+
+@media(width <=1000px) {
+
+    .accordion {
+        width: 90%;
+        height: auto;
+    }
+}
